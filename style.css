@@ -231,8 +231,24 @@ footer.main-footer a{
 // Custom Widget
 
 .showcase{
-	background: #3f51b5;
-	padding: 30px;
-	margin-bottom: 40px;
-	text-align: center;
+	text-align:center;
+}
+
+.box{
+	width: 30%;
+	float: left;
+	padding: 0 10px;
+}
+
+.box li{
+	list-style:none;
+	line-height: 2em;
+	padding: 5px 10px;
+	border-bottom: 2px solid #ccc;
+}
+
+.box h3{
+	text-align:center;
+	background: #009acd;
+	padding: 5px;
 }

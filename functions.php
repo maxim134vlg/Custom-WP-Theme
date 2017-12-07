@@ -36,12 +36,12 @@ function init_widget($id){
 	));
 
 	register_sidebar(array(
-		'name' => 'Showcase',
-		'id'   => 'showcase',
-		'before_widget' => '<div class="showcase">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h3>',
-		'after_title'   => '</h3>'
+		'name'	=> 'Showcase',
+		'id'	=> 'showcase',
+		'before_widget'	=> '<div class="showcase">',
+		'after_widget'	=> '</div>',
+		'before_title'	=> '<h1>',
+		'after_title'	=> '</h1>'
 	));
 
 	register_sidebar(array(

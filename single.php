@@ -12,7 +12,9 @@ get_header();
 				<?php endwhile; ?>
 				<?php else : ?>
 				<?php echo apautop('Sorry, no post were found'); ?>
-			<?php endif; ?> 
+			<?php endif; ?>
+
+			<?php comments_template(); ?> 
 		</div>
 
 		<div class="side">
